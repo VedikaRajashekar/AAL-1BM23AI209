@@ -39,9 +39,9 @@ int main()
 			break;
 		}
 		else if (a[mid]>key)
-			end= mid;
+			end= mid+1;
 		else
-			beg= mid;
+			beg= mid-1;
 	}
 	stop= time(NULL);
 	if (i==0)
